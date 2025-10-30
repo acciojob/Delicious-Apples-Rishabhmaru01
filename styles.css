@@ -1,1 +1,54 @@
 /* your code here */
+/* your code here */
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+}
+body{
+	background-color:#10E37F;
+	display:flex;
+	justify-content:center;
+}
+.product{
+	display:flex;
+	gap:8px;
+	background-color:#FFFFFF;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:15px;
+	color:white;
+}
+.photo-main{
+	background-color:#B5E940;
+	
+}
+.photo-album ul{
+	display:flex;
+	list-style:none;
+	margin:10px 5px 0px 39px
+}
+.photo-album ul li{
+	display:flex;
+	list-style:none;
+	border: 1px solid grey;
+	margin-right:2px
+}
+.variant ul{
+	display:flex;
+	list-style:none
+}
+.variant ul li:nth-of-type(1){
+	border: 1px solid gray
+}
+.cart button{
+	padding:9px;
+	background-color:#FE3F40;
+	color:white;
+	border:none;
+	border-radius:7px;
+	margin-top:19px
+}
